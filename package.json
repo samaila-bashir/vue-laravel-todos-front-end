@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "node api.js && vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "element-plus": "^1.1.0-beta.24",
     "vue": "^3.0.0",
+    "vue-axios": "^3.3.7",
     "vue-class-component": "^8.0.0-0"
   },
   "devDependencies": {
